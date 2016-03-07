@@ -28,7 +28,8 @@ requirements:
 ├── README.md
 ├── app
 │   ├── __init__.py
-│   ├── models.py
+│   ├── indexes.py
+│   ├── models.py
 │   ├── static
 │   │   ├── css
 │   │   │   ├── ie.css
@@ -73,19 +74,13 @@ requirements:
 │   │           ├── _index.scss 				# imports for all mixins + global project variables
 │   │           └── _mixins.scss 				# media queries, CSS3, etc.
 │   ├── templates
-│   │   ├── admin
-│   │   ├── control_panel
 │   │   ├── index.html
-│   │   ├── main
-│   │   │   └── index.html
-│   │   └── map.html
-│   └── views
-│       ├── __init__.py
-│       ├── admin.py
-│       ├── control_panel.py
-│       └── home.py
-├── index.md
-├── node_modules
+│   │   ├── login.html
+│   │   ├── logout.html
+│   │   ├── map.html
+│   │   ├── profile.html
+│   │   └── register.html
+│   └── views.py
 ├── requirements.txt
 └── run.py
 
